@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+@media screen and (max-width: 800px){
+	.my-form{
+		width: 100%;
+	}
+}
+body{
+	background-color: #cccc;
+	/*background-image:url("about.png");
+	background-repeat: repeat-x repeat-y;
+	background-attachment:fixed;*/
+}
+.my-form{
+	font-family:cursive;
+	font-size: 20px;
+	background-image: url("about.png");
+	overflow: hidden;
+
+	
+
+}
+.my-form h1{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:25px;
+	text-align: center;
+	text-transform: uppercase;
+	padding:20px;
+	color:yellow;
+}
+.my-form .inputfield{
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.my-form .inputfield label{
+	width: 200px;
+	font-size: 20px;
+	color:#ffffff;
+	margin-left: 10px;
+	margin-top:80px;
+	padding-right:1;
+	text-transform: uppercase;
+}
+.my-form .inputfield .input{
+	width:55%;
+	margin-top:80px;
+	margin-right:100px;
+	display:all;
+	outline:none;
+	border:1px #d5dbd9 solid;
+	font-size: 25px
+	padding:10px 10px;
+	border-radius:30px;
+}
+.my-form .inputfield button{
+	text-align: center;
+	color: red;
+	margin-left:50%;
+	margin-top:10%;
+	margin-bottom:2%;
+}
+.my-form a {
+	text-decoration: none;
+	color: #e8491d;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	margin: 10px;
+	padding-bottom:10px;
+}
+footer{
+	text-transform:uppercase;
+	text-align: center;
+	padding:2px;
+	margin-top:49%;
+	color: #ffffffff;
+	background-color: #e8491d;
+	}

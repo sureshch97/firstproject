@@ -1,0 +1,234 @@
+*{
+	box-sizing: border-box;
+}
+@media screen and (max-width: 800px){
+	.my-form{
+		width: 100%;
+	}
+}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:16px;
+	line-height:1.5;
+	/*same as above
+	font:16px/1.5 Arial,Helvetica,sans-serif;*/
+	padding: 0;
+	margin: 0;
+	background-image:url("about.png");
+	max-width: 100%;
+	height: 100vh;
+	background-repeat:repeat-y;
+	background-position: center; 
+	background-color: #f4f4f4;
+	background-size:cover;
+	
+}
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+.container #branding .heighlight{
+	color:#e8491d;
+}
+/*.container #branding{
+	background-color: #ffffff;
+	margin-top:0%;
+	padding:25px;
+	width: 100%;
+
+}*/
+header{
+	 font-family: cursive;
+	 background:#ffffff; 
+	 padding-top:10px;
+	 color:blue;
+	 min-height: 70px;
+}
+.links{
+	/*background-color: #e8491d;*/
+}
+.links a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.links ul{
+	margin: 0;
+	padding:0;
+	background-color: #e8491d;
+}
+.links li{
+	 float:left;
+	 display: inline;
+	 padding-left:10px;
+	 padding-top: 10;
+	 padding-right:20px;
+	 padding-bottom: 0;
+	 /*same as above	 
+	 padding:0 20px 0 20px;*/
+}
+header #branding{
+	text-align: center;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float:right;
+	margin-top: 16px;
+}
+header.highlight header.current a{
+	color:#e8491d;
+	font-weight: bold;
+}
+.links a:hover{
+	color:#e8491d;
+	font-weight: bold;
+}
+#showcase{
+	min-height: 100px;
+	text-align: center;
+	/*background:url("website.png") 0 -400px;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position:top;
+	text-align: center;*/
+}
+#showcase h1{
+	color:#e8491d;
+	margin-top: 40%;
+	font-size: 25px;
+	
+}
+#showcase p{
+	color:#ffffff;
+	font-size: 20px;
+}
+#showcase a{
+	text-decoration: none;
+	font-family:sans-serif;
+	color: #ffffff;
+
+}
+#showcase a:hover{
+	color: blue;
+}
+/*#newsletter{
+	color: #ffffff;
+	background-color:#35424a;
+	padding:3px;
+	margin:0;
+}
+#newsletter h1{
+	text-align: center;
+	color:#ffffff;
+}
+#newsletter form{
+	text-align: center;
+}
+#newsletter form input[type="email"]
+{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+.button{
+	height:25px;
+	background-color: #e8491d;
+	border:0;
+
+}
+#boxes{
+	margin:auto;
+}
+#boxes .box{
+	float: left;
+	width:45px;
+	padding-left:3%;
+	padding-right:20%;
+	padding-top: 20px;
+}
+#boxes .box h3{
+	   text-align: center;
+	   padding: 0 20px;
+}
+#boxes .box  img{
+	width: 90px;
+}*/
+footer{
+	text-transform:uppercase;
+	text-align: center;
+	padding:2px;
+	margin-top:49%;
+	color: #ffffffff;
+	background-color: #e8491d;
+}
+#about h1{
+
+	color:lightblue;
+	margin: 0;
+	padding: 10px;
+}
+.paragraph{
+	padding: 10px;
+}
+.login{
+	background: #ffffff;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 30px;
+	margin:20px auto;
+	width: 100%;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0,125);
+}
+.login 
+.my-form{
+	font-family: verdana;
+	color:#ffffff;
+	border: 10px;
+	border-width: 5px;
+	margin: 20px;
+	
+}
+button [type=submit]:hover
+{
+color:red;
+}
+.btn{
+	color: black;
+	background-color:#ffffff;
+}
+.login button:hover{
+	color: blue;
+}
+  #login  h2{
+	font-family: Arial.Helvetica,sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.login .my-form .input{
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+.login .my-form .input label{
+	width: 200px;
+	color: #e8491d;
+	margin-right: 10px;
+	font-size: 14px;
+
+}
+.login .my-form .input .input_{
+	width: 100%;
+	outline: none;
+	border:1px solid #d5dbd9;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;  
+
+}

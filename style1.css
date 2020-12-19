@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+@media screen and (max-width: 800px){
+	.my-form{
+		width: 100%;
+	}
+}
+body{
+	background-image: url("about.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center; 
+}
+#about h1{
+     font-family: Arial,Helvatica,san-serif;
+     font-size: 30px;
+	color:blue;
+	padding: 10px;
+}
+#about img{
+	height: 110px;
+
+}
+.paragraph{
+	font-family: Arial,Helvatica,san-serif;
+	font-size: 20px;
+	line-height:1.5em;
+	padding: 10px;
+	color: #ffffff;
+}
+/*footer{
+	text-transform:uppercase;
+	text-align: center;
+	padding:10px;
+	margin-top:50%;
+	margin-left:1px;
+	color:#e8491d;
+	background-color:transparent;
+}*/
+ p{
+	color: #ffffff;
+	font-size: 20px;
+}
+header{
+	color: #ffffff;
+	font-size: 20px;
+}
+.contact p{
+	color:#ffffff;
+
+
+}
